@@ -2,7 +2,7 @@
 
 def multiples_of_seven(num):
     for i in range(num):
-        if i%2==0:
+        if i%7==0:
             print(i)
         else:
             continue

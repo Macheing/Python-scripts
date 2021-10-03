@@ -13,7 +13,7 @@ def recursive_factorial(num):
     return num * recursive_factorial(num-1)
 
 print('For loop factorial vs Recursive factorial')
-for num in range(100):
+for num in range(20):
     print('Factorial of:',num, loop_factorial(num),'<== vs ==>',
               recursive_factorial(num))
     
